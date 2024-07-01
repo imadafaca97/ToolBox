@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ToolBox",
+    "slug": "tarea_3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/profile_picture.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/profile_picture.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.cbasantos.ToolBox"
+    },
+    "web": {
+      "favicon": "./assets/profile_picture.jpg"
+    },
+    "plugins": [
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fbc7fa57-e3f6-4386-b9f2-2bca7f4c3a23"
+      }
+    }
+  }
+}
